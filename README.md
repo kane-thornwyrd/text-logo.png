@@ -5,7 +5,7 @@
   <strong>Open-source magic tools</strong>
 </div>
 <div align="center">
-  Terra-firma for Open-Source projects !
+  Terra-firma for Open-Source JS projects !
 </div>
 
 [![Build Status](https://travis-ci.org/kane-thornwyrd/boilerplate.png?branch=develop)](https://travis-ci.org/kane-thornwyrd/boilerplate)
