@@ -1,5 +1,14 @@
 {
   "name": "boilerplate",
+  "logo": {
+    "font": "./.fonts/04B_03__.TTF",
+    "fontSzie": 72,
+    "logo": "Boilerplate",
+    "output": "logo.svg",
+    "path": {
+      "fill": "#cb3837"
+    }
+  },
   "version": "0.0.0",
   "description": "my boilerplate",
   "main": "index.js",
@@ -7,7 +16,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cz": "git-cz",
     "cc": "conventional-changelog",
-    "release": "standard-version"
+    "release": "standard-version",
+    "logo": "logo && convert-svg-to-png logo.svg && rm -f logo.svg"
   },
   "repository": {
     "type": "git",
@@ -26,6 +36,7 @@
     "cz-conventional-changelog": "2.1.0",
     "git-precommit-checks": "1.2.0",
     "husky": "1.3.1",
+    "logo.svg": "1.0.1",
     "precise-commits": "1.0.2",
     "prettier": "1.15.3"
   },
