@@ -1,18 +1,12 @@
-<h1 align="center">
-  <img src="https://github.com/kane-thornwyrd/boilerplate/blob/develop/logo.png" alt="Boilerplate">
-</h1>
-<div align="center">
-  <strong>Open-source magic tools</strong>
-</div>
-<div align="center">
-  Terra-firma for Open-Source JS projects !
-</div>
+![Boilerplate](./logo.png "Boilerplate")
 
+**Open-source magic tools** | Terra-firma for Open-Source JS projects !
+<!--
+Badge template:
+[![Title](https:// image url)](https:// link url)
+-->
 [![Build Status](https://travis-ci.org/kane-thornwyrd/boilerplate.png?branch=develop)](https://travis-ci.org/kane-thornwyrd/boilerplate)
-[![codecov](https://img.shields.io/codecov/c/github/kane-thornwyrd/boilerplate.svg)](https://codecov.io/gh/kane-thornwyrd/boilerplate)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2e85ad60226c73095c56/maintainability)](https://codeclimate.com/github/kane-thornwyrd/boilerplate/maintainability)
-[![dependencies Status](https://david-dm.org/kane-thornwyrd/boilerplate/status.png)](https://david-dm.org/kane-thornwyrd/boilerplate)
-[![devDependencies Status](https://david-dm.org/kane-thornwyrd/boilerplate/dev-status.png)](https://david-dm.org/kane-thornwyrd/boilerplate?type=dev)
 ![GPL-3.0](https://img.shields.io/github/license/kane-thornwyrd/boilerplate.png)
 
 <div align="center">
