@@ -1,6 +1,6 @@
 {
   "name": "boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Magic tools and Terra-firma for Open-Source JS projects !",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "git-precommit-checks": "3.0.7",
     "husky": "7.0.4",
     "precise-commits": "1.0.2",
-    "prettier": "2.6.1"
+    "prettier": "2.6.1",
+    "standard-version": "9.3.2"
   },
   "commitlint": {
     "extends": [
@@ -36,7 +37,9 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "maxHeaderWidth": 100,
+      "maxLineWidth": 100
     }
   },
   "husky": {
