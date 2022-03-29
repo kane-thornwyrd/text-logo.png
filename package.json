@@ -4,10 +4,12 @@
   "description": "Magic tools and Terra-firma for Open-Source JS projects !",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"WARN: you should change the build task\" && exit 1",
+    "test": "echo \"ERROR: no test specified\" && exit 1",
     "cz": "git-cz",
     "cc": "conventional-changelog",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
