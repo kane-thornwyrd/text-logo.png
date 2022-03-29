@@ -15,7 +15,7 @@ Badge template:
 
 ### **[Website](https://kane-thornwyrd.github.io/boilerplate) | [Wiki](https://github.com/kane-thornwyrd/boilerplate/wiki) | [Issues](https://github.com/kane-thornwyrd/boilerplate/issues) | [Contributing](https://github.com/kane-thornwyrd/boilerplate/blob/master/.github/CONTRIBUTING.md)**
 
-Built with 💗 by [Kane Thornwyrd](/kane-thornwyrd) and [contributors](/kane-thornwyrd/boilerplate/graphs/contributors)
+Built with 💗 by [Kane Thornwyrd](https://github.com/kane-thornwyrd) and [contributors](https://github.com/kane-thornwyrd/boilerplate/graphs/contributors)
 
 ---
 
@@ -64,7 +64,7 @@ Built with 💗 by [Kane Thornwyrd](/kane-thornwyrd) and [contributors](/kane-th
 ```js
 console.log('Yeay') // console.log is pretty dated, take a look at remote debugging, it's available in VSCode for exemple.
 ```
-Want to see more examples? Check out the [Wiki](/kane-thornwyrd/boilerplate/wiki).
+Want to see more examples? Check out the [Wiki](https://github.com/kane-thornwyrd/boilerplate/wiki).
 
 <sub>[⇧ back to top](#table-of-contents)</sub>
 
@@ -82,7 +82,7 @@ $ npm i -S my-project
 <sub>[⇧ back to top](#table-of-contents)</sub>
 
 ## See Also
-- [Feedmereadmes]( /LappleApple/feedmereadmes/blob/master/README-maturity-model.md) - Feedmereadmes ReadMe maturity model
+- [Feedmereadmes](https://github.com/LappleApple/feedmereadmes/blob/master/README-maturity-model.md) - Feedmereadmes ReadMe maturity model
 - [choo](https://github.com/choojs/choo) - from which I broadly borrowed inspiration for this README.md
 
 <sub>[⇧ back to top](#table-of-contents)</sub>
