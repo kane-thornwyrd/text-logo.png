@@ -1,26 +1,30 @@
 {
-  "name": "boilerplate",
-  "version": "0.0.1",
-  "description": "Magic tools and Terra-firma for Open-Source JS projects !",
-  "main": "index.js",
+  "name": "text-logo.png",
+  "version": "0.0.0",
+  "description": "Using a text, a font and few configurations to generate a png, which you can embed in your REAME.md for a neat look.",
+  "main": "./lib/index.js",
+  "bin": {
+    "text-logo.png": "./bin/text-logo.png.js"
+  },
   "scripts": {
-    "build": "echo \"WARN: you should change the build task\" && exit 1",
+    "build": "tsc",
     "test": "echo \"ERROR: no test specified\" && exit 1",
     "cz": "git-cz",
     "cc": "conventional-changelog",
     "release": "standard-version",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kane-thornwyrd/boilerplate.git"
+    "url": "git+https://github.com/kane-thornwyrd/text-logo.png.git"
   },
   "author": "Jean-cédric Thérond <jean.cedric.t@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/kane-thornwyrd/boilerplate/issues"
+    "url": "https://github.com/kane-thornwyrd/text-logo.png/issues"
   },
-  "homepage": "https://github.com/kane-thornwyrd/boilerplate#readme",
+  "homepage": "https://github.com/kane-thornwyrd/text-logo.png#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "16.2.1",
     "commitizen": "4.2.4",
@@ -28,6 +32,7 @@
     "cz-conventional-changelog": "3.3.0",
     "git-precommit-checks": "3.0.7",
     "husky": "7.0.4",
+    "lint-staged": "12.3.7",
     "precise-commits": "1.0.2",
     "prettier": "2.6.1",
     "standard-version": "9.3.2"
@@ -68,5 +73,8 @@
         "regex": "(?:FIXME|TODO)"
       }
     ]
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
